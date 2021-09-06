@@ -1,0 +1,15 @@
+.hero-box {
+ padding: 20px;
+ max-width: 320px;
+ border: 1px solid lightgrey;
+ margin-left: 10px;
+ border-radius: 8px;
+ box-shadow: 10px 10px 25px maroon;
+}
+
+.hero-image {
+ display: flex;
+ margin: 0 auto;
+ height: 150px;
+ width: 300px;
+}

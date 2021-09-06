@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import Heroes from './components/Heroes'
+import Dogs from './components/Dogs'
+import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar/>
+      <h2 style={{margin: '20px'}}> Heroes React App Demo</h2>
+      <Heroes />
+      <Dogs/>
+    </>
   );
 }
 
